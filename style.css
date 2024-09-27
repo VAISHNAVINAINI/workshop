@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #333; */
+}
+
+.parent{
+    display: flex;
+     background-color: rgb(24, 23, 23);
+     justify-content: space-around;
+     list-style-type: none;
+     color: white;
+     padding: 20px;
+
+}
+nav li a{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+.img{
+    position: relative;
+}
+.texts{
+    position: absolute;
+    margin: 20px;
+    
+    top: 250px;
+    color: white;
+}
+.texts a{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+main{
+    background-color: rgb(1, 1, 5);
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+main h1{
+    color: #E76F51;
+}
+main h1 p{
+    color: #E76F51;
+}
+.card1{
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   padding: 10px;
+   height: fit-content;
+   background-color: #333;
+}
+.cards .card1 h4{
+    color: #f83b0b;
+}
+h3{
+    color: green;
+}
+.buy a{
+    padding: 10px;
+    background-color: #E76F51;
+    color: white;
+    text-decoration: none;
+}
+.buy{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    display: flex;
+}
